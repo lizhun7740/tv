@@ -1,0 +1,55 @@
+{
+"lives":[
+        {
+          "name":"ipv6直播",
+                "type":0,
+                "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/lizhun7740/tv/main/ipv6.m3u",
+                "playerType":1,
+                "ua": "okhttp/3.12.13",
+                "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+                "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+                "name":"电视直播",
+                "type":0,
+                "url":"http://www.mhq10086.work.gd/upload/tv/3v%E8%B0%B7.txt",
+                "playerType":1,
+                "ua": "okhttp/3.12.13",
+                "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+                "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+                "name":"晴天",
+                "type":0,
+		"playerType":1,
+                "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/wuyun999/wuyun/main/zb/aptv.txt",
+                "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+                "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+                "name":"IPTV6专用",
+                "type":0,
+                "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+		"playerType":1,
+                "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+                "logo":"https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "饭太硬",
+            "type": 0,
+            "url": "https://xhdwc.tk/tvlive.txt",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+                "name":"我的私用",
+                "type":0,
+                "url":"http://192.168.0.222:5678/tvbox/iptv.m3u",
+                "playerType":2,
+                "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+                "logo":"https://epg.112114.xyz/logo/{name}.png"
+        }
+]
+}
